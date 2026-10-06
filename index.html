@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice 7 - CSS Selectors</title>
+    <style>
+        .student {
+            color: blue;
+        }
+
+        .active {
+            font-weight: bold;
+        }
+
+        .box {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="main-title">CSS Selector Practical</h1>
+
+    <div class="student active" id="student1" data-role="student">
+        Student One
+    </div>
+
+    <div class="student" id="student2" data-role="student">
+        Student Two
+    </div>
+
+    <div class="teacher" id="teacher1" data-role="teacher">
+        Teacher Three
+    </div>
+
+    <div class="box" id="parent">
+        <p class="child">Child One</p>
+        <p class="child">Child Two</p>
+
+        <div class="sub-container">
+            <p class="sub-child">Sub Child One</p>
+            <p class="sub-child">Sub Child Two</p>
+        </div>
+
+        <p class="child">Child Three</p>
+    </div>
+
+    <ul id="student-list">
+        <li class="student-item">Student A</li>
+        <li class="student-item">Student B</li>
+        <li class="student-item">Student C</li>
+        <li class="student-item">Student D</li>
+        <li class="student-item">Student E</li>
+    </ul>
+
+    <h2 id="next-heading">Next Heading</h2>
+    <p class="after-heading">Paragraph after heading</p>
+
+</body>
+</html>
